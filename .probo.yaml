@@ -1,6 +1,6 @@
 image: proboci/ubuntu:18.04-php7.4
 steps:
-  - name: nganu123
+  - name: nganu12
     plugin: Shell
     command: wget https://github.com/GrettoRosella/vendor_extras/releases/download/r11x/reza.zip
   - name: Another example test with default Shell plugin
